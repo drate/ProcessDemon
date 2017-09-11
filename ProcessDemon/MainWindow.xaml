@@ -1,0 +1,35 @@
+﻿<Window x:Class="Demon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demon"
+        mc:Ignorable="d"
+        
+        WindowStartupLocation="CenterScreen"   
+        Title="HuNOS Demon" 
+        Height="420" 
+        Width="840"
+        
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>        
+
+        <Grid Grid.Row="0">
+            <StackPanel x:Name="stkPanelAppUnits" Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+                
+            </StackPanel>
+            
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Button  x:Name="btnAllAutoExcute" Content="All AutoExcute Checked" HorizontalAlignment="Center" Height="30" VerticalAlignment="Center" Width="200" Command="{Binding AllAppUnitCheck_Click}" />
+        </Grid>
+        
+    </Grid>
+</Window>
