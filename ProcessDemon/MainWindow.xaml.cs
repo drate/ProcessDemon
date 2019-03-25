@@ -17,7 +17,7 @@ using System.Windows.Shapes;
 
 //MVVM패턴을 위해
 using Demon.ViewModel;
-//테스트입니다.
+
 
 namespace Demon
 {
